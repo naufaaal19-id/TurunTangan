@@ -16,11 +16,21 @@ public class Kegiatan {
         this.durasiJam = durasiJam;
     }
 
-    public String getNama() { return nama; }
-    public String getLokasi() { return lokasi; }
-    public int getKuota() { return kuota; }
-    public int getDurasiJam() { return durasiJam; }
-    public ArrayList<Relawan> getPeserta() { return peserta; }
+    public String getNama() { 
+        return nama; 
+    }
+    public String getLokasi() { 
+        return lokasi; 
+    }
+    public int getKuota() { 
+        return kuota; 
+    }
+    public int getDurasiJam() { 
+        return durasiJam; 
+    }
+    public ArrayList<Relawan> getPeserta() { 
+        return peserta; }
+    
 
     public boolean daftar(Relawan r) {
         if (peserta.size() >= kuota) {

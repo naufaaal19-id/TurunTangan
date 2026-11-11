@@ -6,5 +6,7 @@ public class Admin extends Pengguna {
     }
 
     @Override
-    public String getPeran() { return "Admin"; }
+    public String getPeran() { 
+        return "Admin"; 
+    }
 }

@@ -10,10 +10,16 @@ public class Relawan extends Pengguna {
         this.jamKontribusi = 0;
     }
 
-    public String getKeahlian() { return keahlian; }
-    public void setKeahlian(String keahlian) { this.keahlian = keahlian; }
+    public String getKeahlian() { 
+        return keahlian; 
+    }
+    public void setKeahlian(String keahlian) { 
+        this.keahlian = keahlian; 
+    }
 
-    public int getJamKontribusi() { return jamKontribusi; }
+    public int getJamKontribusi() { 
+        return jamKontribusi; 
+    }
 
     public void tambahJam(int jam) {
         if (jam > 0) {
@@ -24,7 +30,9 @@ public class Relawan extends Pengguna {
     }
 
     @Override
-    public String getPeran() { return "Relawan"; }
+    public String getPeran() { 
+        return "Relawan"; 
+    }
 
     @Override
     public void tampilkanInfo() {

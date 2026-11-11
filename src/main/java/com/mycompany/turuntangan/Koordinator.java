@@ -8,12 +8,18 @@ public class Koordinator extends Pengguna {
         this.jumlahKegiatan = 0;
     }
 
-    public int getJumlahKegiatan() { return jumlahKegiatan; }
+    public int getJumlahKegiatan() { 
+        return jumlahKegiatan; 
+    }
 
-    public void tambahKegiatan() { jumlahKegiatan++; }
+    public void tambahKegiatan() { 
+        jumlahKegiatan++; 
+    }
 
     @Override
-    public String getPeran() { return "Koordinator"; }
+    public String getPeran() { 
+        return "Koordinator"; 
+    }
 
     @Override
     public void tampilkanInfo() {
