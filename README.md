@@ -28,8 +28,8 @@ Pendaftaran, pembagian tugas, dan penghitungan jam kontribusi relawan sering dil
 | Materi | Penerapan |
 |---|---|
 | Input `Scanner` dan control flow | Menu interaktif dengan `Scanner`, `while`, `switch`, `if/else`, dan `for` di `TurunTangan.java` |
-| Class dan Object | 6 class; objek dibuat dengan `new` di method `main` |
-| Encapsulation | Semua field `private`, diakses lewat getter dan setter; setter `tambahJam()` memvalidasi nilai |
+| Class dan Object | 6 class, dengan objek dibuat memakai `new` di method `main` |
+| Encapsulation | Semua field `private`, diakses lewat getter dan setter, dan `tambahJam()` memvalidasi nilai |
 | Inheritance | `Relawan`, `Koordinator`, dan `Admin` mewarisi `Pengguna` memakai `extends`, `super`, dan `@Override` |
 
 ## Struktur Class
