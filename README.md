@@ -5,7 +5,9 @@ Proyek akhir mata kuliah **Pemrograman Berorientasi Objek (PBO)**, S1 Sistem Inf
 
 
 **Nama** : Muhammad Naufal Rofiqurrohim
+
 **NPM** : 2517052016
+
 **Kelas** : Sistem Informasi A
 
 Tugas 4, berjalan di terminal dengan input `Scanner`.
